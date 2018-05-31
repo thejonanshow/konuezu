@@ -11,6 +11,10 @@ class Biome
   def initialize
     @year = 0
   end
+
+  def evolve
+    @year += 1
+  end
 end
 
 RSpec.describe 'Conway' do
@@ -19,6 +23,10 @@ RSpec.describe 'Conway' do
 
     it "starts at year 0" do
       expect(biome.year).to eq(0)
+    end
+
+    it "increments the year when it evolves" do
+      expect { biome.evolve }.to change { biome.year }.by 1
     end
   end
 end
