@@ -1,9 +1,1 @@
-require 'rspec'
-
-# live < 2, die
-# live 2/3, live
-# live with > 3, die
-# dead with == 3, spawn
-
-RSpec.describe 'Conway' do
-end
+size=30;Array.new((size+2)*(size+2),0).tap{|g|(size*size).times{|i|[100,133,163,164,165].each{|i|g[i]=1}};100.times{size.times{|y|puts size.times.map{|x|g[x+size+3+y*(size+2)]==1??*:?.}.join};(size*size).times.map{|i|i+=i/size*2;[0,1,2,3,5,6,7,8].map{|x|g[i+x%3+x/3*2+x/3*size]}.sum.yield_self{|x|x==3?1:x==2?g[i+size+3]:0}}.tap{|n|(size*size).times{|i|g[i+size+3+i/size*2]=n[i]}};sleep(0.1);print"\e[#{size}A"}}
