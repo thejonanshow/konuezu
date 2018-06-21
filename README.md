@@ -1,6 +1,6 @@
 # Live Pairing on [Twitch](https://twitch.tv/thejonanshow)
 
-## Hi! I'm Jonan 👋
+### Hi! I'm Jonan 👋
 
 ![round-avatar-360](https://user-images.githubusercontent.com/270746/41746508-7a1167f8-755f-11e8-92f4-44e47baf89bd.png)
 
