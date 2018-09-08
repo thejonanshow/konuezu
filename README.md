@@ -14,7 +14,7 @@ As such many of the examples you see here will be broken, and they may not make 
 
 You can find the most recent pairing sessions on [Twitch](https://twitch.tv/thejonanshow).
 
-Videos fall off of Twitch after a couple of months, so I will move them over to [YouTube](https://youtube/c/jonanscheffler) as I get time.
+Videos fall off of Twitch after a couple of months, so I will move them over to [YouTube](https://youtube.com/c/jonanscheffler) as I get time.
 
 If you're only interested in the very freshest artisanal handcrafted pairing videos, you would be wise to follow me on [Twitter](https://twitter.com/thejonanshow). I mostly almost always remember to tweet when I'm about to start streaming.
 
