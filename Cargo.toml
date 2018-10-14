@@ -6,4 +6,6 @@ version = "0.1.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-helix = "0.7.4"
+helix = "0.7.5"
+termion = "*"
+rand = "*"
